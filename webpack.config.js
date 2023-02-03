@@ -16,9 +16,9 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin(
-    //     {
-    //         template: path.resolve(__dirname, 'public', 'index.html'),
-    //     }
+        {
+            template: path.resolve(__dirname, 'public', 'index.html'),
+        }
         ),
         new webpack.ProgressPlugin(),
     ],
