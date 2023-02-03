@@ -2,30 +2,36 @@ const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
+// import * as path from 'path';
+// import * as webpack from 'webpack';
+// import * as  HtmlWebpackPlugin from 'html-webpack-plugin';
+//
 module.exports = {
     mode: "development",
-    entry: path.resolve(__dirname, 'src', 'index.ts'),
+    entry: path.resolve(__dirname, 'src', 'index.js'),
     output: {
         filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, 'build'),
         clean: true,
     },
     plugins: [
-        new HTMLWebpackPlugin({
-            template: path.resolve(__dirname, 'public', 'index.html'),
-        }),
+        new HTMLWebpackPlugin(
+    //     {
+    //         template: path.resolve(__dirname, 'public', 'index.html'),
+    //     }
+        ),
         new webpack.ProgressPlugin(),
     ],
-    module: {
-        rules: [
-            {
-                test: /\.tsx?$/,
-                use: 'ts-loader',
-                exclude: /node_modules/,
-            },
-        ],
-    },
-    resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
-    },
+    // module: {
+    //     rules: [
+    //         {
+    //             test: /\.tsx?$/,
+    //             use: 'ts-loader',
+    //             exclude: /node_modules/,
+    //         },
+    //     ],
+    // },
+    // resolve: {
+    //     extensions: ['.tsx', '.ts', '.js'],
+    // },
 }

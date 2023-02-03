@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.ts":
+/***/ "./src/index.js":
 /*!**********************!*\
-  !*** ./src/index.ts ***!
+  !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\n(0,_test__WEBPACK_IMPORTED_MODULE_0__.someFn)();\n\n\n//# sourceURL=webpack://production-project/./src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.js\");\n\n\n(0,_test__WEBPACK_IMPORTED_MODULE_0__.someFn)()\n\n//# sourceURL=webpack://production-project/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/test.ts":
+/***/ "./src/test.js":
 /*!*********************!*\
-  !*** ./src/test.ts ***!
+  !*** ./src/test.js ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"someFn\": () => (/* binding */ someFn)\n/* harmony export */ });\nfunction someFn() {\n    console.log('RANDOME FUNCTION');\n    return '';\n}\n\n\n//# sourceURL=webpack://production-project/./src/test.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"someFn\": () => (/* binding */ someFn)\n/* harmony export */ });\nfunction someFn(){\n    console.log('RANDOME FUNCTION new1')\n    // return ''\n}\n\n//# sourceURL=webpack://production-project/./src/test.js?");
 
 /***/ })
 
@@ -90,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.ts");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
 /******/ 	
 /******/ })()
 ;
