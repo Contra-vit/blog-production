@@ -1,12 +1,13 @@
-const path = require('path');
-const HTMLWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
+// const path = require('path');
+// const HTMLWebpackPlugin = require('html-webpack-plugin');
+// const webpack = require('webpack');
 
-// import * as path from 'path';
-// import * as webpack from 'webpack';
-// import * as  HtmlWebpackPlugin from 'html-webpack-plugin';
-//
-module.exports = {
+import path from 'path';
+import webpack from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+
+
+const config: webpack.Configuration = {
     mode: "development",
     entry: path.resolve(__dirname, 'src', 'index.ts'),
     output: {
@@ -15,10 +16,9 @@ module.exports = {
         clean: true,
     },
     plugins: [
-        new HTMLWebpackPlugin(
-        {
-            template: path.resolve(__dirname, 'public', 'index.html'),
-        }
+        new HtmlWebpackPlugin ({
+                template: path.resolve(__dirname, 'public', 'index.html'),
+            }
         ),
         new webpack.ProgressPlugin(),
     ],
@@ -35,3 +35,5 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
     },
 }
+
+export default config;

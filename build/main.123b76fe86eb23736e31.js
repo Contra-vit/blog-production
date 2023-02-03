@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"someFn\": () => (/* binding */ someFn)\n/* harmony export */ });\nfunction someFn(arg) {\n    console.log('RANDOME FUNCTION new1');\n    return '';\n}\n\n\n//# sourceURL=webpack://production-project/./src/test.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"someFn\": () => (/* binding */ someFn)\n/* harmony export */ });\nfunction someFn(arg) {\n    console.log('RANDOME FUNCTION new final 1 lesson');\n    return '';\n}\n\n\n//# sourceURL=webpack://production-project/./src/test.ts?");
 
 /***/ })
 
