@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("RANDOME FUNCTION test 2"),document.body.innerHTML='<div style="background: aqua">Hello world! </div>'})();
