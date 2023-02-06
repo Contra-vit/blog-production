@@ -1,7 +1,11 @@
 import {render} from "react-dom";
+import {Counter} from "./components/Counter";
 
 
 render(
-    <div>Hello TSX</div> ,
+    <div>
+        <Counter/>
+        </div> ,
+
     document.getElementById('root'),
 )
