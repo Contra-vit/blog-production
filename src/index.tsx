@@ -5,7 +5,7 @@ import {Counter} from "./components/Counter";
 render(
     <div>
         <Counter/>
-        </div> ,
+        </div>,
 
     document.getElementById('root'),
 )
