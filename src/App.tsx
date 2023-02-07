@@ -4,7 +4,7 @@ import './index.scss'
 const App = () => {
     return (
         <div className='app'>
-            APPPPPPPPppp
+           New 8 gitignore
             <Counter/>
         </div>
     );
