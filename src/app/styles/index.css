@@ -20,18 +20,25 @@ select {
   --font-size-l: 24px;
   --font-line-l: 32px;
   --font-l: var(--font-size-l)/var(--font-line-l) var(--font-family-main);
+  --navbar-height: 50px;
 }
 
 :root {
   --bg-color: #c5c5c5;
+  --inverted-bg-color: #151579;
   --primary-color: #0000c7;
-  --secondary-color: #0000d9;
+  --secondary-color: #2167ff;
+  --inverted-primary-color: #c9b8b8;
+  --inverted-secondary-color: #c5c5c5;
 }
 
 .app.dark {
   --bg-color: #151579;
-  --primary-color: #156215;
-  --secondary-color: #53e353;
+  --inverted-bg-color: #c5c5c5;
+  --primary-color: #c5c5c5;
+  --secondary-color: #c5c5c5;
+  --inverted-primary-color: #0000c7;
+  --inverted-secondary-color: #2167ff;
 }
 
 .app {
